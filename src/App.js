@@ -1,12 +1,12 @@
 
 import './App.css';
 import { Counter } from './Components/Counter';
-import { Parent } from './Components/Parent';
+// import { Parent } from './Components/Parent';
 
 function App() {
   return (
     <div className="App">
-      <Parent/>
+      {/* <Parent/> */}
       <Counter/>
     </div>
   );
